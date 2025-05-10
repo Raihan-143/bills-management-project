@@ -5,7 +5,7 @@ const Footer = () => {
 	return (<>
 		<div className="bg-violet-600 text-white text-center py-4">
 			<div className='flex justify-center items-center gap-2'>
-				<img src="/public/bill_62.png" alt="" className='w-[40px]' />
+				<img src="/bill_62.png" alt="" className='w-[40px]' />
 				<NavLink to="/" className="text-2xl font-extrabold text-white">PayBills</NavLink>
 			</div>
 
