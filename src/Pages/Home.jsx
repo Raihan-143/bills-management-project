@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+import HeroSlider from "./HeroSlider";
 
 const Home = () => {
   const [demoBills, setDemoBills] = useState([]);
@@ -16,37 +20,9 @@ const Home = () => {
 
   return (
     <div className="space-y-20">
-      <section className="bg-gradient-to-r from-gray-100 to-white dark:from-gray-900 dark:to-gray-800 text-gray-800 dark:text-white">
-        <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center px-6 py-20 gap-12">
-          
-          <div className="w-full lg:w-1/2 text-center lg:text-left space-y-6">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
-              স্মার্ট <span className="text-violet-600">বিল ম্যানেজমেন্ট</span><br /> এখন আরো সহজে
-            </h1>
-            <p className="text-lg text-gray-600 dark:text-gray-300">
-              আপনার সব বিল এক জায়গায় পরিচালনা করুন, সময়মতো পেমেন্ট দিন এবং আর্থিক পরিকল্পনা হোক আরও মজবুত!
-            </p>
-            <div className="mt-6 flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-4">
-              <NavLink to="/bills" className="px-6 py-3 text-white bg-violet-600 hover:bg-violet-700 rounded-lg text-lg font-semibold transition-all duration-300">
-                বিলসমূহ দেখুন
-              </NavLink>
-              <NavLink to="/register" className="px-6 py-3 border border-violet-600 text-violet-600 hover:bg-violet-100 rounded-lg text-lg font-semibold transition-all duration-300">
-                একাউন্ট খুলুন
-              </NavLink>
-            </div>
-          </div>
 
-         
-          <div className="w-full lg:w-1/2 flex justify-center">
-            <img 
-              src="https://i.ibb.co.com/S4B870Qj/Chat-GPT-Image-May-10-2025-05-02-29-PM.png"
-              alt="বিল ম্যানেজমেন্ট"
-              className="h-80 w-96  sm:h-80 lg:h-96 xl:h-112 2xl:h-128 shadow-xl rounded-xl"
-            />
-          </div>
-        </div>
-      </section>
-
+      {/* Sliding Hero Section */}
+      <HeroSlider></HeroSlider>
       <section className="max-w-6xl mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">🧾 সাম্প্রতিক বিলসমূহ</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -62,7 +38,6 @@ const Home = () => {
         </div>
       </section>
 
-     
       <section className="bg-violet-50 dark:bg-gray-800 py-16 px-4">
         <h2 className="text-3xl font-bold text-center mb-12">🌟 কেন ব্যবহার করবেন বিল ম্যানেজার?</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -74,7 +49,6 @@ const Home = () => {
           ))}
         </div>
       </section>
-
     </div>
   );
 };

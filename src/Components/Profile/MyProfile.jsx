@@ -17,10 +17,10 @@ const MyProfile = () => {
             });
             setUser({...user,displayName,photoURL})
 
-            toast.success('✅ প্রোফাইল সফলভাবে আপডেট হয়েছে!');
+            toast.success('প্রোফাইল সফলভাবে আপডেট হয়েছে!');
         } catch (error) {
             console.error(error);
-            toast.error('❌ প্রোফাইল আপডেট ব্যর্থ হয়েছে');
+            toast.error('প্রোফাইল আপডেট ব্যর্থ হয়েছে');
         }
     };
 
