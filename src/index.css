@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.bgImg{
+    background-image: url('./assets/bill.png');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}

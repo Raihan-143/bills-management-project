@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "bill_type": "electricity",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2910/2910768.png",
+    "organization": "DESCO",
+    "amount": 1890,
+    "due_date": "2025-06-22T06:57:58.110Z",
+    "status": "Unpaid"
+  },
+  {
+    "id": 2,
+    "bill_type": "gas",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1822/1822899.png",
+    "organization": "Titas Gas",
+    "amount": 1450,
+    "due_date": "2025-06-10T06:57:58.110Z",
+    "status": "Unpaid"
+  },
+  {
+    "id": 3,
+    "bill_type": "internet",
+    "icon": "https://cdn-icons-png.flaticon.com/512/545/545705.png",
+    "organization": "BDCOM",
+    "amount": 1200,
+    "due_date": "2025-06-12T06:57:58.110Z",
+    "status": "Unpaid"
+  },
+  {
+    "id": 4,
+    "bill_type": "water",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1062/1062975.png",
+    "organization": "WASA",
+    "amount": 780,
+    "due_date": "2025-06-15T06:57:58.110Z",
+    "status": "Paid"
+  },
+  {
+    "id": 5,
+    "bill_type": "electricity",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2910/2910768.png",
+    "organization": "REB",
+    "amount": 1320,
+    "due_date": "2025-06-20T08:30:00.000Z",
+    "status": "Unpaid"
+  },
+  {
+    "id": 6,
+    "bill_type": "mobile",
+    "icon": "https://cdn-icons-png.flaticon.com/512/597/597177.png",
+    "organization": "Grameenphone",
+    "amount": 550,
+    "due_date": "2025-06-09T12:00:00.000Z",
+    "status": "Paid"
+  },
+  {
+    "id": 7,
+    "bill_type": "internet",
+    "icon": "https://cdn-icons-png.flaticon.com/512/545/545705.png",
+    "organization": "Link3",
+    "amount": 1100,
+    "due_date": "2025-06-18T11:00:00.000Z",
+    "status": "Unpaid"
+  },
+  {
+    "id": 8,
+    "bill_type": "gas",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1822/1822899.png",
+    "organization": "Jalalabad Gas",
+    "amount": 980,
+    "due_date": "2025-06-14T10:15:00.000Z",
+    "status": "Paid"
+  },
+  {
+    "id": 9,
+    "bill_type": "electricity",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2910/2910768.png",
+    "organization": "BPDB",
+    "amount": 1620,
+    "due_date": "2025-06-25T09:00:00.000Z",
+    "status": "Unpaid"
+  },
+  {
+    "id": 10,
+    "bill_type": "telephone",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828843.png",
+    "organization": "BTCL",
+    "amount": 320,
+    "due_date": "2025-06-11T15:00:00.000Z",
+    "status": "Paid"
+  },
+  {
+    "id": 11,
+    "bill_type": "waste",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2920/2920295.png",
+    "organization": "City Corporation",
+    "amount": 200,
+    "due_date": "2025-06-17T07:00:00.000Z",
+    "status": "Unpaid"
+  },
+  {
+    "id": 12,
+    "bill_type": "internet",
+    "icon": "https://cdn-icons-png.flaticon.com/512/545/545705.png",
+    "organization": "Amber IT",
+    "amount": 1300,
+    "due_date": "2025-06-23T16:00:00.000Z",
+    "status": "Paid"
+  },
+  {
+    "id": 13,
+    "bill_type": "electricity",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2910/2910768.png",
+    "organization": "DESCO",
+    "amount": 145,
+    "due_date": "2025-06-19T10:30:00.000Z",
+    "status": "Paid"
+  },
+  {
+    "id": 14,
+    "bill_type": "gas",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1822/1822899.png",
+    "organization": "Bakhrabad Gas",
+    "amount": 880,
+    "due_date": "2025-06-21T11:45:00.000Z",
+    "status": "Unpaid"
+  },
+  
+  {
+    "id": 15,
+    "bill_type": "water",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1062/1062975.png",
+    "organization": "WASA",
+    "amount": 720,
+    "due_date": "2025-06-24T13:20:00.000Z",
+    "status": "Paid"
+  },
+  {
+    "id": 16,
+    "bill_type": "mobile",
+    "icon": "https://cdn-icons-png.flaticon.com/512/597/597177.png",
+    "organization": "Robi",
+    "amount": 430,
+    "due_date": "2025-06-13T14:00:00.000Z",
+    "status": "Unpaid"
+  },
+  {
+    "id": 17,
+    "bill_type": "tv",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1041/1041916.png",
+    "organization": "Akash DTH",
+    "amount": 650,
+    "due_date": "2025-06-16T09:00:00.000Z",
+    "status": "Paid"
+  },
+  {
+    "id": 18,
+    "bill_type": "waste",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2920/2920295.png",
+    "organization": "City Corporation",
+    "amount": 210,
+    "due_date": "2025-06-22T08:45:00.000Z",
+    "status": "Unpaid"
+  },
+  {
+    "id": 19,
+    "bill_type": "tv",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1041/1041916.png",
+    "organization": "DishTV",
+    "amount": 700,
+    "due_date": "2025-06-08T12:00:00.000Z",
+    "status": "Paid"
+  },
+  {
+    "id": 20,
+    "bill_type": "telephone",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828843.png",
+    "organization": "BTCL",
+    "amount": 310,
+    "due_date": "2025-06-26T10:00:00.000Z",
+    "status": "Unpaid"
+  }
+]
