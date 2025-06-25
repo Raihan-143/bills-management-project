@@ -48,7 +48,7 @@ A responsive and user-friendly bill management web application built with React 
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/bills-management.git
+git clone https://github.com/Raihan-143/bills-management.git
 cd bills-management
 
 # Install dependencies
