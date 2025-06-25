@@ -28,7 +28,7 @@ const Navbar = () => {
           <div className="flex items-center gap-4">
 
             <div className='flex items-center gap-2'>
-              <img src="/bill_62.png" alt="" className='w-[40px]' />
+              <img src="/bill_62.png" alt="" className='w-[50px]' />
               <NavLink to="/" className="text-2xl font-extrabold text-violet-600">PayBills</NavLink>
             </div>
 
