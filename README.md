@@ -1,42 +1,57 @@
-# 🏠 Roommate Finder Website
+# 💰 Bills Management Web App
 
-A full-stack web application for finding and listing roommates with chat support.
+A responsive and user-friendly bill management web application built with React and Firebase Authentication. Users can view, filter, and track paid/unpaid bills with ease. Includes modern UI, dark mode support, and smooth animations.
 
-🔗 **Live Link:** [roommatefinder.vercel.app](https://roommatefinder.vercel.app)
+🔗 **Live Link:** [https://tangerine-sunshine-8227f0.netlify.app/](https://tangerine-sunshine-8227f0.netlify.app/)
 
 ---
 
 ## 🛠️ Tech Stack
+
 - React.js
-- Node.js
-- Express.js
-- MongoDB
-- Firebase Auth
+- Tailwind CSS
+- Firebase Authentication
+- React Router DOM
+- JSON data for bills
 
 ---
 
 ## 🚀 Features
-- User Authentication (Register/Login)
-- Add, Browse, Like Roommate Listings
-- Chat between users
-- Dark/Light Theme toggle
-- Protected Routes
+
+- 🔐 User Authentication (Login/Register with Firebase)
+- 📃 View all bills in a card-based layout
+- ✅ Mark bills as paid
+- 🔍 Filter by status (Paid / Unpaid)
+- 🌙 Dark mode support
+- ⚡ Smooth animations using Framer Motion
+- 🔐 Protected Routes based on auth
+- 🧑 Profile Update functionality
 
 ---
 
 ## 📦 Dependencies
-- React Router DOM
-- Framer Motion
-- Axios
-- React Hook Form
-- SweetAlert2
+
+- `firebase`
+- `react-router-dom`
+- `framer-motion`
+- `react-icons`
+- `sweetalert2`
+
+---
 
 ---
 
 ## 🖥️ Run Locally
 
 ```bash
-git clone https://github.com/your-username/roommate-finder.git
-cd roommate-finder
+# Clone the repository
+git clone https://github.com/your-username/bills-management.git
+cd bills-management
+
+# Install dependencies
 npm install
+
+# Start the development server
 npm run dev
+
+
