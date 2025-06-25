@@ -1,4 +1,7 @@
 # 💰 Bills Management Web App
+<p align="center">
+  <img src="./bills.png" alt="Banner" width="100%" />
+</p>
 
 A responsive and user-friendly bill management web application built with React and Firebase Authentication. Users can view, filter, and track paid/unpaid bills with ease. Includes modern UI, dark mode support, and smooth animations.
 
